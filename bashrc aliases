@@ -1,0 +1,19 @@
+alias c="clear"
+alias sd="shutdown now"
+alias e="exit"
+alias h="history"
+alias n="neofetch"
+alias md="mkdir"
+alias v="vim"
+alias update="sudo apt update && sudo apt upgrade"
+alias battery='upower -i $(upower -e | grep battery) | grep -E "state|percentage|time to full|time to empty"'
+
+alias bat='upower -i $(upower -e | grep battery) | grep -E "state|percentage|time to full|time to empty"'
+
+
+alias bashrc="sudo vim ~/.bashrc"
+alias ka="killall"
+alias la="ls -a"
+alias sai="sudo apt install"
+alias sagi="sudo apt-get install"
+alias kap="killall polybar"  
